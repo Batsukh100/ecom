@@ -54,7 +54,7 @@ const Page = () => {
         <div className="flex gap-10   ">
           <div>
             <img
-              src={productInfo.images[0]}
+              src={productInfo.images?.[0]}
               className="w-[742px] h-[742px] bg-amber-50"
             />
           </div>
